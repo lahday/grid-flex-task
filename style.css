@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  background-color: red;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr;
+}
+
+.product-deals {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  background-color: white;
+}
+.display-wrap {
+  position: relative;
+}
+.display-wrap > .display-description {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  text-align: right;
+}
+.display-wrap > .display-discount {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.skincare-image {
+  width: 55vh;
+  height: 40vh;
+}
+.mobile-image {
+  width: 55vh;
+  height: 40vh;
+}
+.babyneed-image {
+  width: 55vh;
+  height: 40vh;
+}
+.television-image {
+  width: 55vh;
+  height: 40vh;
+}
+.brands {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: white;
+  font-size: 30px;
+  grid-gap: 2px;
+}
+.display-description {
+  width: 50%;
+  background-color: rgb(185, 179, 179);
+}
+.display-discount {
+  background-color: white;
+  width: 20%;
+  text-align: center;
+}
+.des {
+  font-size: 10px;
+  color: lightgray;
+}
+.price {
+  color: rgb(204, 17, 48);
+  font-weight: bold;
+  font-size: 20px;
+}
+.text {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  color: rgb(100, 100, 145);
+  font-size: 20px;
+}
+.discount {
+  padding-bottom: 20px;
+  color: lightgray;
+  font-size: 15px;
+}
+a:link {
+  text-decoration: none;
+  color: rgb(148, 46, 148);
+  font-weight: bold;
+}
+.desc {
+  color: rgb(148, 158, 167);
+  font-size: 12px;
+}
+.names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: red;
+}
